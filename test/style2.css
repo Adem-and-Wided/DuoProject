@@ -1,0 +1,234 @@
+
+
+body{
+    background-image: url("./imgs2/bckgrnd\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* header */
+header{
+    background-color: #304529;
+    height: 66px;
+}
+header * {
+    color: white;
+}
+.logo-img{
+  height: 66px;
+  width: 66px;
+  float: left;
+  
+}
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+header ul li{
+    float: left;
+    position: relative;
+    left:  -20px;
+    font-family: 'Lora', serif;
+}
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    left: -15px;
+    right: 0px;
+    width: 180px;
+    display: none;
+   
+}
+header ul li ul li{
+    width: 100%;
+}
+
+header ul li a{
+    display: block;
+    padding: 22px;
+    font-size: 1.1em;
+    
+}
+header ul li a:hover{
+    background-color:#202e1b ;
+}
+  
+
+header ul li ul li {
+    left: -50px;
+    padding: 10px;
+    background-color: #455f3c;
+   
+}
+header ul li:hover ul{
+    display:block;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: #a5d892;  
+    backdrop-filter: blur(5px);
+   position: absolute;
+   border-radius: 10px;
+   opacity: 0.4;
+   
+}
+
+/* sign up */
+#signup-word{
+    position: relative;
+    left: 85px;
+    color: white;
+}
+.container{
+    height: 400px;
+    width: 300px; 
+    backdrop-filter: blur(5px);
+   position: absolute;
+   top: 100px;
+   left: 480px;
+   border-radius: 10px;
+   display: none
+}
+.user{
+    position: relative;
+    left: 60px;
+    gap:50px ;
+}
+#user-input{
+    position: relative;
+    top: 100px;
+    left: -8px;
+    width: 60%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #202e1b;
+    
+    
+}
+#pass-input{
+    position: relative;
+    top: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #202e1b;
+    
+}
+::placeholder {
+    color: White;
+    opacity:2;
+}
+#signup-btn{
+    position: absolute;
+    top: 240px;
+    left: 45px;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #202e1b;
+}
+#signup-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* sign in */
+
+body{
+    background-image: url("./imgs2/bckgrnd\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: #a5d892;  
+    backdrop-filter: blur(5px);
+   position: absolute;
+   border-radius: 10px;
+   opacity: 0.4;
+   
+}
+
+/* sign up */
+#signup-word{
+    position: relative;
+    left: 95px;
+    color: white;
+    top: 40px;
+}
+.container2{
+    height: 400px;
+    width: 300px; 
+    backdrop-filter: blur(5px);
+   position: absolute;
+   top: 100px;
+   left: 480px;
+   border-radius: 10px;
+   
+}
+.user{
+    position: relative;
+    left: 60px;
+    gap:50px ;
+}
+#user-in{
+    position: relative;
+    top: 100px;
+    left: -8px;
+    width: 60%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #202e1b;
+    
+    
+}
+#pass-in{
+    position: relative;
+    top: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #202e1b;
+    
+}
+::placeholder {
+    color: White;
+    opacity:2;
+}
+#signin-btn{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #202e1b;
+}
+#signin-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+

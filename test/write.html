@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4594574602.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <img class="logo-img"   src="./imgs/logo-removebg-preview.png" >
+        </div>
+       <ul class="nav">
+        
+           <li><a href="./write.html">Home</a></li>
+
+           <li><a href="./index.html">All Posts</a></li>
+           <li><a href="./posts.html">Dicover</a></li>
+           <li><a onclick="postMenu()" class="fa-solid fa-square-plus style="font-size: 20px;></a></li>
+           <li>
+               <!-- <i class="fa-solid fa-square-plus"></i> -->
+               <a class="fa-solid fa-user" href="#" style="font-size: 20px;" ></a>
+               <ul>
+                   <li><a href="./write2.html">Sign in</a></li>
+                   <li><a href="#">Dashboard</a></li>
+                </ul>
+        </li>
+
+       </ul>
+    </header>
+    <!-- swipe -->
+    <div class="post-slide">
+        <div class="post-inslide"></div>
+    </div>
+    <div class="slide-wraper">
+        <h1 class="arrow-left" onclick="swipeLeft()"> <i class="fa-solid fa-circle-chevron-left"></i></h1>
+        <div class="image-list">
+            <img id="img1" src="https://images.unsplash.com/photo-1696627247389-73b2b75026a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="img1" class="image-item">
+            <img id="img2" src="https://images.unsplash.com/photo-1682686578707-140b042e8f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80" alt="img2" class="image-item">
+            <img id="img3" src="https://images.unsplash.com/photo-1696827926099-c4eab4331e51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="img3" class="image-item">
+            <img id="img4" src="https://images.unsplash.com/photo-1696986681436-f5ee12981bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="img4" class="image-item">
+            
+            
+            <h1 class="arrow-right" onclick="swipeRight()"><i class="fa-solid fa-circle-chevron-right"></i></h1>
+        </div>
+    </div>
+    <div class="content">
+        <h1 class="recent-word">Recent Posts</h1>
+        <div class="main-content">
+         
+    </div>
+    <div class="post-container">
+        <div class="image-container">
+            <i id="img-input-logo" class="fa-solid fa-image"></i>
+            <h1>ENTER URL()</h1>
+            <input id="image-input" type="text">
+        </div>
+        <div class="title-container">
+            <i id="title-logo" class="fa-solid fa-heading"></i>
+            <h1>HEADING</h1>
+            <input id="title-input" type="text">
+        </div>
+        <div class="writings">
+            <i id="down" class="fa-solid fa-chevron-down"></i>
+            <h1>EXPRESS</h1>
+            <textarea id="write-input" name="story" rows="5" cols="33"></textarea>
+            
+        </div>
+        <button id="post-btn" onclick="makePost()">Post</button>
+        <i onclick="closeMenu()" id="post-close" class="fa-solid fa-circle-xmark"></i>
+    </div>
+</div>
+
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</body>
+</html>
+

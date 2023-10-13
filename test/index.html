@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/10eb49b705.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style3.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-img"   src="./imgs/logo-removebg-preview.png" >
+        </div>
+       <ul class="nav">
+        
+           <li><a href="./write.html">Home</a></li>
+
+           <li><a href="./index.html">All Posts</a></li>
+           <li><a href="./posts.html">Dicover</a></li>
+           <li><a onclick="postMenu()" class="fa-solid fa-square-plus style="font-size: 20px;></a></li>
+           <li>
+               <!-- <i class="fa-solid fa-square-plus"></i> -->
+               <a class="fa-solid fa-user" href="#" style="font-size: 20px;" ></a>
+               <ul>
+                   <li><a href="./write2.html">Sign in</a></li>
+                   <li><a href="#">Dashboard</a></li>
+                </ul>
+        </li>
+
+       </ul>
+    </header>
+ 
+        <!-- <div class="container"> 
+            <h1> MemoBlog</h1>
+            <div class="top-content">
+                <h3>Photo Gallery</h3>
+                <label for="check"> Home page</label>
+                <label for="check"> Home page</label>
+                <label for="check"> Home page</label>
+            </div> -->
+            <div class="photo-gallery">
+                <div class="image"><span><img src="./imgs/img1.jpg" alt=""></span></div>
+                <div class="image"><span><img src="./imgs/img2.jpg" alt=""></span></div>
+                <div class="image"><span><img src="./imgs/img3.jpg" alt=""></span></div>
+                <div class="image"><span><img src="imgs/img4.jpg" alt=""></span></div>
+                <div class="image"><span><img src="imgs/img5.jpg" alt=""></span></div>
+                <div class="image"><span><img src="./imgs/img6.jpg" alt=""></span></div>
+                <div class="image"><span><img src="./imgs/img7.jpg" alt=""></span></div>
+                <div class="image"><span><img src="imgs/img8.jpg" alt=""></span></div>
+                <div class="image"><span><img src="imgs/img9.jpg" alt=""></span></div>
+                <div class="image"><span><img src="./imgs/img10.jpg" alt=""></span></div>
+                <div class="image"><span><img src="./imgs/img11.avif" alt=""></span></div>
+                <div class="image"><span><img src="imgs/img12.avif" alt=""></span></div>
+            </div>
+        </div>
+        
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">
+                  <p class="current-img"> ... Just smile for me and let the day begin</p>
+                        <!-- of <p class="total-img">12</p> -->
+                </span>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="img-box">
+                <div class="slide prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div id="next" class="slide next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <img class="image11" src="imgs/img-7.jpg" alt="">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- </div>
+            <div class="popup-imge">
+                <span>&times;</span>
+                <img src="imgs/withfreinds1.jpg" alt="">
+            </div>
+        </div>
+  
+    <script>
+        document.querySelectorAll('.photo-gallery img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.popup-imge').style.display='block';
+                document.querySelector('.popup-imge img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-imge span').onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'none'
+        }
+
+    </script> -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="main3.js"></script>
+</body>
+</html>

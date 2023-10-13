@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f6f6;
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: #304529;
+    height: 66px;
+}
+header * {
+    color: white;
+}
+.logo-img{
+  height: 66px;
+  width: 66px;
+  float: left;
+  
+}
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+header ul li{
+    float: left;
+    position: relative;
+    left:  -20px;
+    font-family: 'Lora', serif;
+}
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    left: -15px;
+    right: 0px;
+    width: 180px;
+    display: none;
+   
+}
+header ul li ul li{
+    width: 100%;
+}
+
+header ul li a{
+    display: block;
+    padding: 22px;
+    font-size: 1.1em;
+    
+}
+header ul li a:hover{
+    background-color:#202e1b ;
+}
+header ul li ul li a:hover{
+    background-color: white;
+}
+header ul li ul li {
+    left: -50px;
+    padding: 10px;
+    background-color: #455f3c;
+   
+}
+header ul li:hover ul{
+    display:block;
+}
+ 
+/* posts */
+#see{
+    height: 1000px;
+    border-bottom: 1px solid #202e1b;
+   position: relative;
+   top: 0px;
+}
+.container{
+    position: relative;
+    left: 120px;
+    height: 100px;
+    width: 80%;
+
+}
+.title{
+    font-family: 'Lora', serif;
+    font: 10px;
+        position: relative;
+        left: 580px;
+        top: 50px;
+}
+.full-img{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    position: relative;
+    top: 150px;
+    left: 50px;
+
+}
+.discr{
+
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: -380px;
+    left:590px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+ 
+    border-bottom-color:3px solid #202e1b;
+}
+.test
+{
+ position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -100px;
+}
+
+.date{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+
+}
+
+#eee{
+      display: none;
+}
